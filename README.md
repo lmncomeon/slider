@@ -4,4 +4,4 @@
 
 # 效果图
 
-![图片](https://github.com/lmncomeon/slider/tree/master/321asdewed/321asdewed/screenshots/slier_image.png)
+![图片](https://github.com/lmncomeon/slider/tree/master/screenshots/slier_image.png)
