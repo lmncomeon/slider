@@ -13,6 +13,8 @@
 		AD2AB7E620439E6A00413747 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD2AB7E420439E6A00413747 /* LaunchScreen.storyboard */; };
 		AD2AB7E920439E6A00413747 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD2AB7E820439E6A00413747 /* main.m */; };
 		ADB0544D204E445B007C7844 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADB0544C204E445A007C7844 /* Main.storyboard */; };
+		ADD395DF2065F0C6009C79F6 /* slier_image.png in Resources */ = {isa = PBXBuildFile; fileRef = ADD395DD2065F0C6009C79F6 /* slier_image.png */; };
+		ADD395E02065F0C6009C79F6 /* slider_slide.gif in Resources */ = {isa = PBXBuildFile; fileRef = ADD395DE2065F0C6009C79F6 /* slider_slide.gif */; };
 		ADF6AB222046905000776284 /* MNControl.m in Sources */ = {isa = PBXBuildFile; fileRef = ADF6AB212046905000776284 /* MNControl.m */; };
 		ADF6AB252047A7D700776284 /* MNSliderModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ADF6AB242047A7D700776284 /* MNSliderModel.m */; };
 		ADF6AB282047E8BB00776284 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = ADF6AB262047E8BA00776284 /* UIView+Frame.m */; };
@@ -30,6 +32,8 @@
 		AD2AB7E820439E6A00413747 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		ADB0544C204E445A007C7844 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		ADD395DB2065EBFA009C79F6 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		ADD395DD2065F0C6009C79F6 /* slier_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slier_image.png; sourceTree = "<group>"; };
+		ADD395DE2065F0C6009C79F6 /* slider_slide.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = slider_slide.gif; sourceTree = "<group>"; };
 		ADF6AB202046905000776284 /* MNControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MNControl.h; sourceTree = "<group>"; };
 		ADF6AB212046905000776284 /* MNControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MNControl.m; sourceTree = "<group>"; };
 		ADF6AB232047A7D700776284 /* MNSliderModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MNSliderModel.h; sourceTree = "<group>"; };
@@ -68,6 +72,7 @@
 		AD2AB7D820439E6A00413747 /* 321asdewed */ = {
 			isa = PBXGroup;
 			children = (
+				ADD395DC2065F092009C79F6 /* screenshots */,
 				AD2AB7D920439E6A00413747 /* AppDelegate.h */,
 				AD2AB7DA20439E6A00413747 /* AppDelegate.m */,
 				AD2AB7DC20439E6A00413747 /* ViewController.h */,
@@ -86,6 +91,15 @@
 				AD2AB7E820439E6A00413747 /* main.m */,
 			);
 			path = 321asdewed;
+			sourceTree = "<group>";
+		};
+		ADD395DC2065F092009C79F6 /* screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				ADD395DE2065F0C6009C79F6 /* slider_slide.gif */,
+				ADD395DD2065F0C6009C79F6 /* slier_image.png */,
+			);
+			path = screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,9 +160,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADD395E02065F0C6009C79F6 /* slider_slide.gif in Resources */,
 				ADB0544D204E445B007C7844 /* Main.storyboard in Resources */,
 				AD2AB7E620439E6A00413747 /* LaunchScreen.storyboard in Resources */,
 				AD2AB7E320439E6A00413747 /* Assets.xcassets in Resources */,
+				ADD395DF2065F0C6009C79F6 /* slier_image.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
